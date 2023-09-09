@@ -1,1 +1,8 @@
-<p>parent works!</p>
+<p>Below is child components</p>
+<app-child
+*ngFor="let item of Villains"
+[Villain]="item"
+[heroName]="hero"
+(killVillain)="PolyKilled($event)"
+></app-child>
+{{polyKills}}

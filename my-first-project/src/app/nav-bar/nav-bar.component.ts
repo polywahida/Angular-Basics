@@ -15,8 +15,8 @@ export class  NavBarComponent implements OnInit {
  }
    ngOnInit(): void {
   this.navRouter= [
-  { routerName:'Parent', displayName:'Parents'},
-  { routerName:' dashboard', displayName:' Dashboard'},
+  { routerName:'parent', displayName:'Parents'},
+  { routerName:'dashboard', displayName:'Dashboard'},
   ]
 }
 }

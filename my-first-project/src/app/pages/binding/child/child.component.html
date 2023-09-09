@@ -1,1 +1,8 @@
-<p>child works!</p>
+<div>
+    <h3>
+        {{Villain?.name}} says:
+       <p>I {{Villain?.name}},am going to take over the world, you {{heroName}} are no more hero.</p> 
+    </h3>
+</div>>
+
+<button (click)="onKillVillain($event)"> Kill {{Villain?.name}}</button>
