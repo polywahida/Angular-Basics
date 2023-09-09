@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./parent.component.css']
 })
 export class ParentComponent {
-
+hero = 'Poly';
+polyKills = '';
+Villains = [
+  {id : 1, name:'Dipjol'},
+];
+PolyKilled(event: any) {
+  console.log(event);
+  this.polyKills = event;
+  }
 }

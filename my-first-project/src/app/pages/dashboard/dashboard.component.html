@@ -1,1 +1,24 @@
-<p>dashboard works!</p>
+<div class="main-villain">
+      <h2>Students</h2>
+      <div>
+        <label for="new-villain">Add Student Name</label>
+        <input type="text" id="new-villain" #studentName/>
+        <button
+          type="button"
+          class="add-button"
+          (click)="addStudent(studentName.value); studentName.value = ''"
+          >
+          Add Villain
+        </button>
+      </div>
+    
+      <ul class="villains">
+        <li *ngFor="let item of students">
+          <a routerLink="?detail/{{item.id}}">
+
+            <span class="badge"> {{ item.id }}</span> {{ item.name }}
+          </a>
+          <button type="button" class="delete" title="delete" (click)="removeStudents(item)"> x </button>
+        </li>
+      </ul>
+    </div>
