@@ -5,6 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: './parent.component.html',
   styleUrls: ['./parent.component.css']
 })
-export class ParentComponent {
+ export class ParentComponent {
 
+hero = 'Poly';
+polyKills = '';
+Villains = [
+  {id : 1, name:'Dipjol'},
+];
+PolyKilled(event: any) {
+  console.log(event);
+  this.polyKills = event;
+  }
 }
