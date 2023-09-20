@@ -9,6 +9,11 @@
         "duplicate-id-aria": "off"
       }
     ],
-    "axe/forms": "off"
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ]
   }
 }

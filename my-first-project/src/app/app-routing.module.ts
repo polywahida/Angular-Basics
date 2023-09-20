@@ -11,7 +11,7 @@ const routes: Routes = [
  {path:'binding', component: BindingComponent},
  {path:'dashboard', component: DashboardComponent},
  {path:'parent', component: ParentComponent},
- //{path:'child', component: ChildComponent},
+ {path:'child', component: ChildComponent},
  {path:'detail/:id', component:StudentsDetailsComponent}
 
 ];
