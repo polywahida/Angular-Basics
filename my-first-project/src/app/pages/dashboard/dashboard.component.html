@@ -10,7 +10,13 @@
         >
         Add Villain
       </button>
+      <hr>
     </div>
+
+    <label for="new-villain">Search Student</label>
+      <input 
+      (input)="searchStudent(searchStud.value)"
+      type="text" id="new-villain" #searchStud/>
 
     <ul class="villains">
       <li *ngFor="let item of students">

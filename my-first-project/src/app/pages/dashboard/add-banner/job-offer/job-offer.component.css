@@ -1,0 +1,13 @@
+    
+    .job-banner{
+
+    display:flex;
+    flex-direction: column;
+    max-width: 450px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    gap:10px;
+    border:2px solid black;
+    box-shadow: 2px 2px 2px 2px greenyellow;
+
+   }

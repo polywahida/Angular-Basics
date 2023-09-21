@@ -10,9 +10,6 @@ import { catchError, of } from 'rxjs';
   providedIn: 'root'
 })
 export class StudentService {
-  getStudentById(id: number) {
-    throw new Error('Method not implemented.');
-  }
   //Read (Get)
   private studentsUrl = 'api/students';
   httpOptions ={

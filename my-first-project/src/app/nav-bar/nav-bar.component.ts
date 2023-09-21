@@ -17,6 +17,7 @@ export class  NavBarComponent implements OnInit {
   this.navRouter= [
   { routerName:'parent', displayName:'Parents '},
   { routerName:'dashboard', displayName:'Dashboard'},
+  {routerName:'banner', displayName:'Banner'},
   ]
 }
 }
